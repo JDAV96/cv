@@ -1,0 +1,33 @@
+
+  body
+  {
+    background-color: #EEEBDD;
+  }
+
+  hr
+  {
+    background-color: #D8B6A4;
+    border-style: none;
+    height: 2px;
+    width: 75%;
+  }
+
+  h1
+  {
+    color: #630000;
+  }
+
+  h3
+  {
+    color: #630000;
+  }
+
+  p
+  {
+    color: #000000;
+  }
+
+  li
+  {
+    color: #000000;;
+  }

@@ -1,33 +1,136 @@
+html
+{
+  height: 100%;
+}
 
-  body
-  {
-    background-color: #EEEBDD;
-  }
+body
+{
+  height: 100%;
+  margin: 0;
+  text-align: center;
+  background-color: #885d83;
+  font-family: 'Roboto Slab', serif;
+}
 
-  hr
-  {
-    background-color: #D8B6A4;
-    border-style: none;
-    height: 2px;
-    width: 75%;
-  }
+h1
+{
+  margin-top: 0;
+  font-family: 'Pacifico', cursive;
+  position: relative;
+  top: 25%;
+  color: #2f2138;
+  font-size: 5em;
+}
 
-  h1
-  {
-    color: #630000;
-  }
+h2
+{
+  font-family: 'Montserrat', sans-serif;
+  color: #fff7e2;
+}
 
-  h3
-  {
-    color: #630000;
-  }
+h3
+{
+  font-family: 'Montserrat', sans-serif;
+  color: #fff7e2;
+}
 
-  p
-  {
-    color: #000000;
-  }
+a
+{
+  margin-left: 10px;
+  color: #d47984;
+}
 
-  li
-  {
-    color: #000000;;
-  }
+.logo
+{
+  width:40%;
+}
+
+.navbar-background
+{
+  background-color: #fff7e2;
+}
+
+.link-color
+{
+  color: #fff7e2;
+}
+
+.top-container
+{
+  height: 100%;
+  width: 100%;
+  background-image: url("../images/pixel-mountain-mountain-far.png"), url("../images/pixel-mountain-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro-title
+{
+  position: relative;
+  top: 30%;
+  color: #2f2138;
+  font-size: 2em;
+}
+
+.pixel-image
+{
+  width: 100;
+  width: -moz-available;          /* WebKit-based browsers will ignore this. */
+  width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+  width: fill-available;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.middle-container
+{
+  font-size: 1.1em;
+}
+
+.profile
+{
+  margin-top: 30px;
+}
+
+.profile-p
+{
+  width: 50%;
+  margin: 50px auto;
+}
+
+.skills
+{
+  margin-top: 50px;
+}
+
+.skill-row
+{
+  width: 50%;
+  margin: 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-image
+{
+  width: 25%;
+}
+
+.left-float-image
+{
+  float: left;
+  margin: 30px;
+}
+
+.right-float-image
+{
+  float: right;
+  margin: 30px;
+}
+
+.bottom-container
+{
+  padding-top: 10px;
+  background-color: #502e49;
+}
