@@ -1,0 +1,209 @@
+body
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* title secion */
+
+.title-text
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+}
+
+.title-container
+{
+  padding:3% 15% 5%;
+  background-color: #ff4c69;
+}
+
+/* buttons */
+
+.dload-btn
+{
+  margin: 5% 6% 5% 0;
+}
+
+/* images */
+.title-image
+{
+  padding-left: 5%;
+  right: 20%;
+  transform: rotate(20deg);
+  position: absolute;
+}
+
+@media (max-width: 1200px)
+{
+  .title-text
+  {
+    text-align: center;
+  }
+
+  .title-image
+  {
+    transform: rotate(0);
+    position: static;
+  }
+}
+
+/* navbar */
+
+.navbar-brand
+{
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.navbar
+{
+  padding-bottom: 4.5rem;
+}
+
+.nav-item
+{
+  padding: 0 15px;
+}
+
+.nav-link
+{
+  font-size: 1.3rem;
+}
+
+/* features section */
+
+.features-div
+{
+  text-align: center;
+  padding: 10%;
+  background-color: white;
+  position: relative;
+}
+
+.feature-title
+{
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.feature-content
+{
+  color: #8f8f8f;
+}
+
+.feature-image
+{
+  color: #ef8172;
+  margin-bottom: 3%;
+}
+
+.feature-image:hover
+{
+  color: #ff4c68;
+}
+
+/* testimonials section */
+
+.testimonial-div
+{
+  padding: 10%;
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-quote
+{
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image
+{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* press section */
+
+.press-div
+{
+  padding-bottom: 2%;
+  text-align: center;
+  background-color: #ef8172;
+}
+
+.press-logo
+{
+  width: 15%;
+  margin: 20px;
+}
+
+/* pricing section */
+
+.pricing-div
+{
+  text-align: center;
+  padding: 5% 10%;
+}
+
+.pricing-col
+{
+  padding: 3% 2%;
+}
+
+.pricing-title
+{
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.pricing-card-title
+{
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+/* cta section */
+.cta-text
+{
+  color: white;
+  font-weight: 700;
+  font-size: 3rem;
+  margin-bottom: 5%;
+  padding-bottom: 3%;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.cta-div
+{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 5%;
+}
+
+.cta-btn
+{
+  margin-left: 20px;
+}
+
+/* footer */
+
+.footer-div
+{
+  text-align: center;
+  padding: 3%;
+}
+
+.footer-logo
+{
+  margin-left: 20px;
+}
